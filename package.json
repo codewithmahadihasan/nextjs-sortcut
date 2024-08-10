@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-sortcut",
+  "displayName": "nextjs-sortcut",
+  "description": "Here's a description you can use for the `nextjs-sortcut` VS Code extension:",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+ 
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/jsx.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/tsx.code-snippets"
+      }
+    ]
+   }
+}
